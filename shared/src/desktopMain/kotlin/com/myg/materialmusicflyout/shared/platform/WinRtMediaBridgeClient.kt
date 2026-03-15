@@ -56,17 +56,39 @@ internal class WinRtMediaBridgeClient {
     }
 
     private fun findHelperExecutable(): File? {
+        val propertyOverride = System.getProperty("mmf.winrt.helper")
+        if (!propertyOverride.isNullOrBlank()) {
+            val overrideFile = File(propertyOverride)
+            if (overrideFile.isFile) return overrideFile
+        }
+
         val overridePath = System.getenv("MMF_WINRT_HELPER")
         if (!overridePath.isNullOrBlank()) {
             val overrideFile = File(overridePath)
             if (overrideFile.isFile) return overrideFile
         }
 
-        val roots = generateSequence(File(System.getProperty("user.dir"))) { it.parentFile }
-            .take(8)
-            .toList()
+        val directRoots = listOfNotNull(
+            System.getProperty("compose.application.resources.dir")?.takeIf { it.isNotBlank() }?.let(::File),
+            System.getProperty("jpackage.app-path")?.takeIf { it.isNotBlank() }?.let { File(it).parentFile },
+            System.getProperty("user.dir")?.let(::File),
+            System.getProperty("java.home")?.let(::File)?.parentFile,
+            System.getProperty("java.home")?.let(::File)?.parentFile?.parentFile
+        ).distinctBy { it.absolutePath }
+
+        val roots = buildList {
+            directRoots.forEach { root ->
+                add(root)
+                generateSequence(root.parentFile) { it.parentFile }
+                    .take(6)
+                    .forEach { add(it) }
+            }
+        }.distinctBy { it.absolutePath }
 
         val relativeCandidates = listOf(
+            "winrt-helper/MediaBridgeHelper.exe",
+            "app/winrt-helper/MediaBridgeHelper.exe",
+            "resources/winrt-helper/MediaBridgeHelper.exe",
             "desktopApp/winrt-helper/bin/Release/net8.0-windows10.0.19041.0/win-x64/publish/MediaBridgeHelper.exe",
             "desktopApp/winrt-helper/bin/Release/net8.0-windows/win-x64/publish/MediaBridgeHelper.exe",
             "winrt-helper/bin/Release/net8.0-windows10.0.19041.0/win-x64/publish/MediaBridgeHelper.exe",

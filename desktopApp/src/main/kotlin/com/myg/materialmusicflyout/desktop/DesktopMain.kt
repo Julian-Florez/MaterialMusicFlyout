@@ -9,6 +9,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.WindowState
 import androidx.compose.ui.window.application
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.res.painterResource
 import com.myg.materialmusicflyout.shared.ui.MusicFlyoutApp
 import java.awt.Dimension
 import java.awt.EventQueue
@@ -16,6 +17,7 @@ import java.awt.MouseInfo
 import java.awt.Point
 
 fun main() = application {
+    val windowIcon = runCatching { painterResource("app-icon.png") }.getOrNull()
     var pinned by remember { mutableStateOf(false) }
     var dragMouseAnchor by remember { mutableStateOf<Point?>(null) }
     var dragWindowAnchor by remember { mutableStateOf<Point?>(null) }
@@ -28,6 +30,7 @@ fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
         title = "Material Music Flyout",
+        icon = windowIcon,
         state = windowState,
         resizable = false,
         undecorated = true,

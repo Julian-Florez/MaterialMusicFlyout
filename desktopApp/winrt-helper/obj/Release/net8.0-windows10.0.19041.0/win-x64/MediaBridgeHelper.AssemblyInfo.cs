@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaBridgeHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a2e62c8d33bbcd3a309b9cd215a09d6a33633b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaBridgeHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaBridgeHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

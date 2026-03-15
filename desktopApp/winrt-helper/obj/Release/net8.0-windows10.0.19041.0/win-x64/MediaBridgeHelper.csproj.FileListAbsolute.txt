@@ -16,3 +16,4 @@ C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helpe
 C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\obj\Release\net8.0-windows10.0.19041.0\win-x64\MediaBridgeHelper.pdb
 C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\obj\Release\net8.0-windows10.0.19041.0\win-x64\MediaBridgeHelper.genruntimeconfig.cache
 C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\obj\Release\net8.0-windows10.0.19041.0\win-x64\ref\MediaBridgeHelper.dll
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\obj\Release\net8.0-windows10.0.19041.0\win-x64\MediaBridgeHelper.sourcelink.json
