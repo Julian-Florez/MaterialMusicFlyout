@@ -1,0 +1,7 @@
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\MediaBridgeHelper.exe
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\MediaBridgeHelper.dll
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\MediaBridgeHelper.deps.json
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\MediaBridgeHelper.runtimeconfig.json
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\MediaBridgeHelper.pdb
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\Microsoft.Windows.SDK.NET.dll
+C:\Users\Julian\AndroidStudioProjects\MaterialMusicFlyout\desktopApp\winrt-helper\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\WinRT.Runtime.dll

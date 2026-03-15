@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rEOEfM4AZsA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Julian\\AndroidStudioProjects\\MaterialMusicFlyout\\desktopApp\\winrt-helper\\MediaBridgeHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Julian\\.nuget\\packages\\microsoft.windows.cswinrt\\0.1.0-prerelease.200629.3\\microsoft.windows.cswinrt.0.1.0-prerelease.200629.3.nupkg.sha512",
+    "C:\\Users\\Julian\\.nuget\\packages\\microsoft.windows.sdk.net\\10.0.18362.6-preview\\microsoft.windows.sdk.net.10.0.18362.6-preview.nupkg.sha512",
+    "C:\\Users\\Julian\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\Julian\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\Julian\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\Julian\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512",
+    "C:\\Users\\Julian\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+  ],
+  "logs": []
+}
