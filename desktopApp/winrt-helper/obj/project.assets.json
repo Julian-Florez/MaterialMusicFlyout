@@ -31,37 +31,6 @@
           }
         }
       }
-    },
-    "net8.0-windows10.0.19041/win-x64": {
-      "Microsoft.Windows.CsWinRT/0.1.0-prerelease.200629.3": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/winrt.runtime.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/winrt.runtime.dll": {}
-        },
-        "build": {
-          "build/Microsoft.Windows.CsWinRT.props": {},
-          "build/Microsoft.Windows.CsWinRT.targets": {}
-        }
-      },
-      "Microsoft.Windows.SDK.NET/10.0.18362.6-preview": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Windows.CsWinRT": "0.1.0-prerelease.200629.3"
-        },
-        "compile": {
-          "lib/net5.0/Microsoft.Windows.SDK.NET.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Windows.SDK.NET.dll": {
-            "related": ".xml"
-          }
-        }
-      }
     }
   },
   "libraries": {
@@ -201,11 +170,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }
